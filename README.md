@@ -1,3 +1,18 @@
+# Run docker
+```console
+docker-compose up -d
+```
+
+# Run Migration
+```console
+docker-compose exec php /var/www/html/artisan migrate:fresh
+```
+
+# Run Migration
+```console
+docker-compose exec php /var/www/html/artisan migrate:fresh
+```
+
 # Indicaciones generales:
 - Crea un repositorio en github
 - Intenta agrupar funcionalidades en commits individuales, perderás puntos si creas commits grandes sin relación.
