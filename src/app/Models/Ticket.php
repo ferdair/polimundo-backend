@@ -8,6 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class Ticket extends Model
 {
     use HasFactory;
-    protected $table = 'personas';
+    protected $table = 'tickets';
     protected $fillable = ['origen', 'destino', 'precio'];
 }
