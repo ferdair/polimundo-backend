@@ -8,9 +8,13 @@ docker-compose up -d
 docker-compose exec php /var/www/html/artisan migrate:fresh
 ```
 
-# Run Migration
+# Run Seeders
 ```console
-docker-compose exec php /var/www/html/artisan migrate:fresh
+docker-compose exec php /var/www/html/artisan db:seed --class=PersonaSeeder
+```
+
+```console
+docker-compose exec php /var/www/html/artisan db:seed --class=TicketSeeder
 ```
 
 # Indicaciones generales:
