@@ -1,3 +1,15 @@
+# Run composer install
+ - En polimundo-backend/src
+```console
+composer install
+```
+
+# Change permission
+ - En polimundo-backend/src
+```console
+sudo chmod o+w ./storage/ -R
+```
+
 # Run docker
 ```console
 docker-compose up -d
